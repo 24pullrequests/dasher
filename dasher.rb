@@ -11,7 +11,7 @@ EM.run do
   source.on "event" do |message|
     data = JSON.parse(message)
     if data['type'] == 'PullRequestEvent' && data['payload']['action'] == 'opened'
-      p 'newpr'
+      p data['payload']['pull_request']['title']
       EM::HttpRequest.new(ENV['API_URL']).post body: data.merge(:api_key => ENV['API_KEY'])
     end
 	end
