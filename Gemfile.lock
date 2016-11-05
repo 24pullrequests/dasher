@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
     cookiejar (0.3.3)
     em-eventsource (0.2.1)
       em-http-request (~> 1.0)
@@ -19,6 +20,7 @@ GEM
     eventmachine (1.2.0.1)
     ffi (1.9.14)
     http_parser.rb (0.6.0)
+    public_suffix (2.0.3)
     typhoeus (1.1.0)
       ethon (>= 0.9.0)
 
@@ -33,4 +35,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.1
+   1.13.6
