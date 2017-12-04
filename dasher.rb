@@ -2,7 +2,7 @@ require 'em-eventsource'
 require 'json'
 
 EM.run do
-  source = EM::EventSource.new("http://github-firehose.herokuapp.com/events")
+  source = EM::EventSource.new("http://github-firehose.libraries.io/events")
 
   source.error do |error|
     puts "error #{error}"
