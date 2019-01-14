@@ -4,7 +4,7 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     cookiejar (0.3.3)
-    em-eventsource (0.3.0)
+    em-eventsource (0.3.1)
       em-http-request (~> 1.0)
       eventmachine (~> 1.0)
     em-http-request (1.1.5)
